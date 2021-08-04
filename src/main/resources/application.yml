@@ -14,11 +14,11 @@ spring:
         # "native" is used when the native profile is active, for local tests with a classpath repo:
         native:
           searchLocations: classpath:offline-repository/
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  #rabbitmq:
+   # host: localhost
+   # port: 5672
+   # username: guest
+   # password: guest
 server:
   port: 8001
 
